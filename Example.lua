@@ -1,24 +1,3 @@
---[[
-                                              _                                 
-                    __      ____ _ _ __ _ __ (_)_ __   __ _                     
-                    \ \ /\ / / _` | '__| '_ \| | '_ \ / _` |                    
-                     \ V  V / (_| | |  | | | | | | | | (_| |                    
-                      \_/\_/ \__,_|_|  |_| |_|_|_| |_|\__, |                    
-                                                      |___/                     
-      this example file is missing a lot of stuff and its pretty outdated       
-               i recommend using the documentation for Obsidian:                
-                        https://docs.mspaint.cc/obsidian                        
-                                                                                
-              a lot of stuff is very similar but it's not the same              
-                you can look through the source code of Linoria                 
-                                                                                
-                if anyone wants to expand on this example script                
-                       make an pull request or something                        
-                                                                                
-                       Original example (mady by wally):                        
-      https://github.com/violin-suzutsuki/LinoriaLib/blob/main/Example.lua                
---]]
-
 local repo = "https://github.com/5nfd/ai-linora-/tree/main/"
 
 local Library = loadstring(game:HttpGet(repo .. "Library.lua"))()
