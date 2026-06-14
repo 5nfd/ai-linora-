@@ -1,4 +1,4 @@
-local repo = "https://github.com/5nfd/ai-linora-/tree/main/"
+local repo = "https://raw.githubusercontent.com/5nfd/ai-linora-/main/"
 
 local Library = loadstring(game:HttpGet(repo .. "Library.lua"))()
 local ThemeManager = loadstring(game:HttpGet(repo .. "addons/ThemeManager.lua"))()
